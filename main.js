@@ -20,3 +20,6 @@ function operate(num1, operator, num2) {
     //a and b in each function.
 }
 
+//notes for operator button functions:
+//button must add stored value to array, add the operator in next spot in array, then clear the stored value for the next one
+
