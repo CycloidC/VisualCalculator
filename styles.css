@@ -1,0 +1,63 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-body {
+    border: 10px;
+    background-color: grey;
+    height: 550px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.display {
+    background-color: lightblue;
+    width: 350px;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+
+.numbtn-container {
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.num-buttons {
+    background-color: lightgrey;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.funcbtn-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.func-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: greenyellow;
+    width: 40px;
+    border-radius: 5px;
+}
