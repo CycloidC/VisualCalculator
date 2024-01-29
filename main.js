@@ -36,13 +36,13 @@ equalButton.addEventListener('click', function() {
     inputArray.push(inputString);
     while (inputArray.length > 1) {
         var newValue = operate(inputArray[0], inputArray[1], inputArray[2])
-        inputArray.shift();
-        inputArray.shift();
-        inputArray.shift();
+        inputArray.splice(0, 3);
+        //change above shifts into splice function removing first 3 elements
         inputArray.unshift(newValue);
     };
     displayString = inputArray[0];
     inputString = inputArray[0];
+    inputArray = [];
     displayDiv.innerHTML = displayString;
 });
 
